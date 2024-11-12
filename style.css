@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#5B865E;
+    color: white;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.imagem{
+ width: 100px;
+}
+
+.cabecalho-item{
+display: inline-block;
+margin:0 16px;
+font-size: 20px;
+}
+
+.cabecalho-item a{
+    text-decoration: none;
+    color: white;
+}
+
+#pagina{
+    background-image:linear-gradient(#5B865E, #2d422e);
+    color:white;
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    height: 300px;
+    
+    
+}
+.pagina-div{
+    width: 100%;
+    color: #2d422e;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pagina-titulo{
+    padding: 24px 0;
+    }
+
+.pagina-texto{
+text-align: center;
+align-items: center;
+}
+
+#filme{
+  background-color:#2d422e;  
+}
+
+.filme-foto{
+    width: 300px;
+   height: 180px;
+}
+
+.filme-icone{
+ width: 24px; 
+ 
+}
+
+.filme-div{
+text-align: center;
+padding: 20px 0;
+}
+
+.filme-titulo{
+    text-align: center;
+    padding: 25px 0;
+    color:#7fa182;
+}
+
+.filme-nome{
+    color:#5B865E;
+}
+
+.filme-todos{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+}
+    /* "20% uma coluna, a outra coluna também vai ser 20%,
+     a outra coluna também vai ser 20%, eu vou fazer isso 
+     cinco vezes, porque eu quero que dê a largura inteira de 
+     100% da página." */
+     
+.rodape{
+        background-color: #2d422e;
+     }
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+#series{
+    background-color:#2d422e;  
+  }
+  
+  .serie-foto{
+      width: 300px;
+     height: 180px;
+  }
+    
+  .serie-div{
+  text-align: center;
+  padding: 20px 0;
+  }
+  
+  .serie-titulo{
+      text-align: center;
+      padding: 25px 0;
+      color:#7fa182;
+  }
+  
+  .serie-nome{
+      color:#5B865E;
+  }
+  
+  .serie-todos{
+      display: grid;
+      grid-template-columns:20% 20% 20% 20% 20%;
+  }
